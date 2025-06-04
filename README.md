@@ -222,4 +222,15 @@ MIT License. Feel free to use and modify with attribution.
 
 ##Requirements.txt 
 
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+nltk
+scipy
+transformers
+flask
+torch
 
+---
