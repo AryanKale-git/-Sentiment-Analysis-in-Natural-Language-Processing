@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Sentiment Analysis Tool</h1>
+        <p>Enter your review below to analyze its sentiment.</p>
+        <form action="/analyze" method="post">
+            <textarea name="review" rows="4" cols="50" placeholder="Type your review here..." required></textarea>
+            <br>
+            <button type="submit" class="btn">Analyze Sentiment</button>
+        </form>
+    </div>
+</body>
+</html>
